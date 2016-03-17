@@ -30,11 +30,13 @@ p {
 }
 a {
 	color: #5b777f;
+	color: #ff0000;
 	transition: all 0.5s;
 }
 a:hover, a:focus {
 	text-decoration: none;
 	color: #f1c40f;
+	color: #ff0080;
 }
 .img-centered {
 	margin: 0 auto;
@@ -186,7 +188,7 @@ header p {
 }
 /* Services Section */
 #services-section {
-	padding: 180px 0 100px 0;
+	padding: 80px 0 100px 0;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#032731+0,032e3a+20,032e3a+100,032731+100 */
 	background: rgb(3,39,49); /* Old browsers */
 	background: -moz-linear-gradient(top, rgba(3,39,49,1) 0%, rgba(3,46,58,1) 20%, rgba(3,46,58,1) 100%, rgba(3,39,49,1) 100%); /* FF3.6-15 */
@@ -223,6 +225,38 @@ header p {
 	background: #0b3540;
 	background:rgb(150, 56, 56)
 }
+
+/* News Section */
+#news-section {
+	padding: 80px 0 100px 0;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#032731+0,032e3a+20,032e3a+100,032731+100 */
+	background: rgb(3,39,49); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(3,39,49,1) 0%, rgba(3,46,58,1) 20%, rgba(3,46,58,1) 100%, rgba(3,39,49,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(3,39,49,1) 0%, rgba(3,46,58,1) 20%, rgba(3,46,58,1) 100%, rgba(3,39,49,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(3,39,49,1) 0%, rgba(3,46,58,1) 20%, rgba(3,46,58,1) 100%, rgba(3,39,49,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#032731', endColorstr='#032731', GradientType=0 ); /* IE6-9 */
+	color: #5b777f;
+	
+	background: #2F1010;
+	color: #D7B414;
+}
+#news-section h4 {
+	color: #81969c;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+.space {
+	margin-top: 40px;
+}
+#news-section i.fa {
+	font-size: medium;
+	color: #fff;
+}
+#news-section .news:hover>i.fa {
+	background: #0b3540;
+	background:rgb(150, 56, 56)
+}
+
 /* Gallery Section 
 ==============================*/
 #works-section {
@@ -450,7 +484,7 @@ ol.type li a:hover {
 	padding: 0;
 }
 #about-section li:before {
-	content: "✓";
+	/* content: "✓"; */
 	color: #f3ca27;
 	padding-right: 5px;
 }

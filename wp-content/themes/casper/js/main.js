@@ -53,9 +53,8 @@ function main() {
     })
 
   	$(document).ready(function() {
-  	  $("#team").owlCarousel({
-  	 
-  	      navigation : false, // Show next and prev buttons
+  	  $("#team").owlCarousel({  	 
+  	      navigation : true, // Show next and prev buttons
   	      slideSpeed : 300,
   	      paginationSpeed : 400,
   	      autoHeight : true,
@@ -71,8 +70,7 @@ function main() {
 				      ],
   	  });
 
-  	  $("#clients").owlCarousel({
-  	 
+  	  $("#clients").owlCarousel({  	 
   	      navigation : false, // Show next and prev buttons
   	      slideSpeed : 300,
   	      paginationSpeed : 400,
@@ -141,3 +139,7 @@ function main() {
 
 }
 main();
+
+$(".navbar-collapse ul li a").click(function() {
+    $(".navbar-toggle:visible").click();
+});

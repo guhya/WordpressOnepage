@@ -25,50 +25,54 @@ get_header(); ?>
 		</div>
 	</header>
 	
-	<!-- Services Section -->
-	<div id="services-section" class="text-center">
+	<!-- About Section -->
+	<div id="about-section">
 		<div class="container">
-			<div class="section-title wow fadeInDown" >
+			<div class="section-title text-center wow fadeInDown" >
 				<h2>
-					Our <strong>Services</strong>
+					<strong>About</strong> us
 				</h2>
 				<hr>
 				<div class="clearfix"></div>
-				<p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus. Eleifend pellentesque natoque faucibus magna ut etiam.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diamcommodo nibh ante facilisis.</p>
 			</div>
-			<div class="space"></div>
 			<div class="row">
-				<div class="col-md-3 col-sm-6 service wow fadeInUp" data-wow-delay="200ms">
-					<i class="fa fa-desktop"></i>
-					<h4>
-						<strong>Web design</strong>
-					</h4>
-					<p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.</p>
+				<div class="col-md-6 wow fadeInLeft">
+					<img src="<?=get_template_directory_uri();?>/img/about.png" class="img-responsive">
 				</div>
-				<div class="col-md-3 col-sm-6 service wow fadeInUp" data-wow-delay="400ms">
-					<i class="fa fa-gears"></i>
-					<h4>
-						<strong>App Development</strong>
-					</h4>
-					<p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque.</p>
-				</div>
-				<div class="col-md-3 col-sm-6 service wow fadeInUp" data-wow-delay="600ms">
-					<i class="fa fa-bullhorn"></i>
-					<h4>
-						<strong>Marketing</strong>
-					</h4>
-					<p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.</p>
-				</div>
-				<div class="col-md-3 col-sm-6 service wow fadeInUp" data-wow-delay="800ms">
-					<i class="fa fa-rocket"></i>
-					<h4>
-						<strong>Branding</strong>
-					</h4>
-					<p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque.</p>
+				<div class="col-md-6 wow fadeInRight">
+					<h4>Who We Are</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam
+						commodo nibh ante facilisis bibendum.</p>
+					<div class="space"></div>
+					<h4>What We Do</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at.</p>
+					<div class="space"></div>
+					<div class="list-style">
+						<div class="row">
+							<div class="col-lg-6 col-sm-6 col-xs-12">
+								<ul>
+									<li><i class="fa fa-check">&nbsp;</i>Lorem ipsum dolor</li>
+									<li><i class="fa fa-check">&nbsp;</i>Consectetur adipiscing</li>
+									<li><i class="fa fa-check">&nbsp;</i>Duis sed dapibus leo</li>
+									<li><i class="fa fa-check">&nbsp;</i>Sed commodo nibh ante</li>
+								</ul>
+							</div>
+							<div class="col-lg-6 col-sm-6 col-xs-12">
+								<ul>
+									<li><i class="fa fa-check">&nbsp;</i>Lorem ipsum dolor</li>
+									<li><i class="fa fa-check">&nbsp;</i>Consectetur adipiscing</li>
+									<li><i class="fa fa-check">&nbsp;</i>Duis sed dapibus leo</li>
+									<li><i class="fa fa-check">&nbsp;</i>Sed commodo nibh ante</li>
+								</ul>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+	
 	<!-- Portfolio Section -->
 	<div id="works-section" class="text-center">
 		<div class="container">
@@ -146,53 +150,53 @@ get_header(); ?>
 			</div>
 		</div>
 	</div>
-	<!-- About Section -->
-	<div id="about-section">
+	
+	<!-- Services Section -->
+	<div id="services-section" class="text-center">
 		<div class="container">
-			<div class="section-title text-center wow fadeInDown" >
+			<div class="section-title wow fadeInDown" >
 				<h2>
-					<strong>About</strong> us
+					Our <strong>Services</strong>
 				</h2>
 				<hr>
 				<div class="clearfix"></div>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diamcommodo nibh ante facilisis.</p>
+				<p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus. Eleifend pellentesque natoque faucibus magna ut etiam.</p>
 			</div>
+			<div class="space"></div>
 			<div class="row">
-				<div class="col-md-6 wow fadeInLeft">
-					<img src="<?=get_template_directory_uri();?>/img/about.png" class="img-responsive">
+				<div class="col-md-3 col-sm-6 service wow fadeInUp" data-wow-delay="200ms">
+					<i class="fa fa-desktop"></i>
+					<h4>
+						<strong>Web design</strong>
+					</h4>
+					<p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.</p>
 				</div>
-				<div class="col-md-6 wow fadeInRight">
-					<h4>Who We Are</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam
-						commodo nibh ante facilisis bibendum.</p>
-					<div class="space"></div>
-					<h4>What We Do</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at.</p>
-					<div class="space"></div>
-					<div class="list-style">
-						<div class="row">
-							<div class="col-lg-6 col-sm-6 col-xs-12">
-								<ul>
-									<li>Lorem ipsum dolor</li>
-									<li>Consectetur adipiscing</li>
-									<li>Duis sed dapibus leo</li>
-									<li>Sed commodo nibh ante</li>
-								</ul>
-							</div>
-							<div class="col-lg-6 col-sm-6 col-xs-12">
-								<ul>
-									<li>Lorem ipsum dolor</li>
-									<li>Consectetur adipiscing</li>
-									<li>Duis sed dapibus leo</li>
-									<li>Sed commodo nibh ante</li>
-								</ul>
-							</div>
-						</div>
-					</div>
+				<div class="col-md-3 col-sm-6 service wow fadeInUp" data-wow-delay="400ms">
+					<i class="fa fa-gears"></i>
+					<h4>
+						<strong>App Development</strong>
+					</h4>
+					<p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque.</p>
+				</div>
+				<div class="col-md-3 col-sm-6 service wow fadeInUp" data-wow-delay="600ms">
+					<i class="fa fa-bullhorn"></i>
+					<h4>
+						<strong>Marketing</strong>
+					</h4>
+					<p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.</p>
+				</div>
+				<div class="col-md-3 col-sm-6 service wow fadeInUp" data-wow-delay="800ms">
+					<i class="fa fa-rocket"></i>
+					<h4>
+						<strong>Branding</strong>
+					</h4>
+					<p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque.</p>
 				</div>
 			</div>
 		</div>
-	</div>
+	</div>	
+
+	
 	<!-- Team Section -->
 	<div id="team-section" class="text-center">
 		<div class="container">
@@ -205,65 +209,79 @@ get_header(); ?>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diamcommodo nibh ante facilisis.</p>
 			</div>
 			<div id="row">
-				<div class="col-md-3 col-sm-6 team wow fadeInUp" data-wow-delay="200ms">
+				<?php 
+				$criteria = array("numberposts" => 100, "category" => 21, "order" => "ASC");
+				$team = get_posts($criteria);
+				$l = sizeof($team);
+				$c = 12 / $l;
+				
+				foreach($team as $t){
+					$thumbnail = get_the_post_thumbnail_url($t->ID);
+				?>
+				<div class="col-md-<?=$c;?> col-sm-6 team wow fadeInUp" data-wow-delay="200ms">
 					<div class="thumbnail">
-						<img src="<?=get_template_directory_uri();?>/img/01(1).jpg" alt="..." class="img-circle team-img">
+						<img src="<?=$thumbnail;?>" alt="<?=$t->post_title;?>" class="img-circle team-img">
 						<div class="caption">
-							<h3>Jessica Wally</h3>
+							<h3><?=$t->post_title;?></h3>
+							<?=$t->post_content;?>
+							<!-- 
 							<p>CEO / Founder</p>
 							<ul class="list-inline">
 								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
 								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
 								<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
 							</ul>
+							-->
 						</div>
 					</div>
 				</div>
-				<div class="col-md-3 col-sm-6 team wow fadeInUp" data-wow-delay="400ms">
-					<div class="thumbnail">
-						<img src="<?=get_template_directory_uri();?>/img/02(1).jpg" alt="..." class="img-circle team-img">
-						<div class="caption">
-							<h3>Mike Sloan</h3>
-							<p>Web Designer</p>
-							<ul class="list-inline">
-								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-6 team wow fadeInUp" data-wow-delay="600ms">
-					<div class="thumbnail">
-						<img src="<?=get_template_directory_uri();?>/img/03(1).jpg" alt="..." class="img-circle team-img">
-						<div class="caption">
-							<h3>Michele Doe</h3>
-							<p>Web Designer</p>
-							<ul class="list-inline">
-								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-6 team wow fadeInUp" data-wow-delay="800ms">
-					<div class="thumbnail">
-						<img src="<?=get_template_directory_uri();?>/img/04(1).jpg" alt="..." class="img-circle team-img">
-						<div class="caption">
-							<h3>Larry Evans</h3>
-							<p>Project Manager</p>
-							<ul class="list-inline">
-								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
+				<?php
+				}
+				?>
 			</div>
 		</div>
 	</div>
+	
+	<!-- Services Section -->
+	<div id="news-section" class="text-center">
+		<div class="container">
+			<div class="section-title wow fadeInDown" >
+				<h2>
+					News & <strong>Press Release</strong>
+				</h2>
+				<hr>
+			</div>
+			<div class="row">
+				<?php 
+				$criteria = array("numberposts" => 3, "category" => 7, "order" => "DESC");
+				$news = get_posts($criteria);
+				
+				foreach($news as $n){
+					$thumbnail = get_the_post_thumbnail_url($n->ID);
+					$date = get_the_date("", $n->ID);
+					$content = strip_tags(nl2br($n->post_content));
+					$content = strlen($content) > 250 ? substr($content, 0, 250)."..." : $content;
+					$uri = get_the_permalink($n->ID);	
+				?>
+				<div class="col-md-4 col-sm-6 service wow fadeInUp" data-wow-delay="200ms" style="text-align:left;">
+					<a href="<?=$uri;?>"><img src="<?=$thumbnail;?>" style="width:100%;"></a>
+					<h4>
+						<strong><a href="<?=$uri;?>"><?=$n->post_title;?></a></strong>
+					</h4>
+					<p><?=$content;?></p>
+					<p style="color: #fff;"><i class="fa fa-calendar">&nbsp;</i> Published on : <?=$date;?></p>
+				</div>
+				<?php
+				}
+				?>
+				<div class="clear-fix"></div>
+				<div class="col-md-12 wow fadeInUp" data-wow-delay="400ms" style="margin-top: 50px;">
+					<button type="button" class="btn btn-default" onclick="top.location='/category/news'">Load More</button>
+				</div>
+			</div>
+		</div>
+	</div>	
+	
 	<!-- Testimonials Section -->
 	<div id="testimonials-section" class="text-center">
 		<div class="container">
@@ -276,30 +294,22 @@ get_header(); ?>
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
 					<div id="testimonial" class="owl-carousel owl-theme wow fadeInUp" data-wow-delay="200ms">
-						<div class="item">
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-								Duis sed dapibus leo nec ornare diam. 
-								Sed commodo nibh ante facilisis bibendum dolor feugiat at duis sed dapibus leo nec ornarediam.
-							</p>
-							<p><strong>John DOE</strong>, CEO, Company.</p>
-						</div>					
-						<div class="item">
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-								Duis sed dapibus leo nec ornare diam. 
-								Sed commodo nibh ante facilisis bibendum dolor feugiat at duis sed dapibus leo nec ornarediam.
-							</p>
-							<p><strong>John DOE</strong>, CEO, Company.</p>
-						</div>					
-						<div class="item">
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-								Duis sed dapibus leo nec ornare diam. 
-								Sed commodo nibh ante facilisis bibendum dolor feugiat at duis sed dapibus leo nec ornarediam.
-							</p>
-							<p><strong>John DOE</strong>, CEO, Company.</p>
-						</div>
+						<?php 
+						$criteria = array("numberposts" => 100, "category" => 9, "order" => "ASC");
+						$testimonials = get_posts($criteria);
+						
+						$i = 0;
+						foreach($testimonials as $t){
+						?>
+							<div class="item">
+								<p>
+									<?=$t->post_content;?>
+								</p>
+								<p><strong><?=$t->post_title;?></strong></p>
+							</div>
+						<?php 
+						}
+						?>											
 					</div>
 				</div>
 			</div>

@@ -19,6 +19,7 @@
 <link href="<?=get_template_directory_uri();?>/css/owl.carousel.css" rel="stylesheet" media="screen">
 <link href="<?=get_template_directory_uri();?>/css/owl.theme.css" rel="stylesheet" media="screen">
 
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato" />
 <link rel="stylesheet" type="text/css" href="<?=get_template_directory_uri();?>/css/style.css">
 <link rel="stylesheet" type="text/css" href="<?=get_template_directory_uri();?>/css/animate.min.css">
 <script type="text/javascript" src="<?=get_template_directory_uri();?>/js/modernizr.custom.js"></script>
@@ -49,20 +50,22 @@
 				<?php if ( is_front_page() && is_home() ) : ?>
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="#home" class="page-scroll">Home</a></li>
-					<li class=""><a href="#services-section" class="page-scroll">Services</a></li>
-					<li class=""><a href="#works-section" class="page-scroll">Portfolio</a></li>
 					<li class=""><a href="#about-section" class="page-scroll">About</a></li>
+					<li class=""><a href="#works-section" class="page-scroll">Portfolio</a></li>
+					<li class=""><a href="#services-section" class="page-scroll">Services</a></li>
 					<li class=""><a href="#team-section" class="page-scroll">Team</a></li>
+					<li class=""><a href="#news-section" class="page-scroll">News</a></li>
 					<li class=""><a href="#testimonials-section" class="page-scroll">Testimonials</a></li>
 					<li class=""><a href="#contact-section" class="page-scroll">Contact</a></li>
 				</ul>
 				<?php else : ?>
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#home" class="page-scroll">Home</a></li>
-					<li class=""><a href="<?=esc_url( home_url( '/' ) );?>#services-section" class="page-scroll">Services</a></li>
-					<li class=""><a href="<?=esc_url( home_url( '/' ) );?>#works-section" class="page-scroll">Portfolio</a></li>
+					<li><a href="<?=esc_url( home_url( '/' ) );?>#home" class="page-scroll">Home</a></li>
 					<li class=""><a href="<?=esc_url( home_url( '/' ) );?>#about-section" class="page-scroll">About</a></li>
+					<li class=""><a href="<?=esc_url( home_url( '/' ) );?>#works-section" class="page-scroll">Portfolio</a></li>
+					<li class=""><a href="<?=esc_url( home_url( '/' ) );?>#services-section" class="page-scroll">Services</a></li>
 					<li class=""><a href="<?=esc_url( home_url( '/' ) );?>#team-section" class="page-scroll">Team</a></li>
+					<li class=""><a href="<?=esc_url( home_url( '/' ) );?>#news-section" class="page-scroll">News</a></li>
 					<li class=""><a href="<?=esc_url( home_url( '/' ) );?>#testimonials-section" class="page-scroll">Testimonials</a></li>
 					<li class=""><a href="<?=esc_url( home_url( '/' ) );?>#contact-section" class="page-scroll">Contact</a></li>
 				</ul>
