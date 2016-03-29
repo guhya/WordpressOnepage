@@ -259,8 +259,8 @@ get_header(); ?>
 				foreach($news as $n){
 					$thumbnail = get_the_post_thumbnail_url($n->ID);
 					$date = get_the_date("", $n->ID);
-					$content = strip_tags(nl2br($n->post_content));
-					$content = strlen($content) > 250 ? substr($content, 0, 250)."..." : $content;
+					$content = wp_strip_all_tags($n->post_content);
+					$content = wp_trim_words($content, 75, " &hellip;");
 					$uri = get_the_permalink($n->ID);	
 				?>
 				<div class="col-md-4 col-sm-6 service wow fadeInUp" data-wow-delay="200ms" style="text-align:left;">
